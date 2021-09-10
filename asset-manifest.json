@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/payment-advice/static/css/main.14597370.chunk.css",
+    "main.js": "/payment-advice/static/js/main.63768b45.chunk.js",
+    "main.js.map": "/payment-advice/static/js/main.63768b45.chunk.js.map",
+    "runtime-main.js": "/payment-advice/static/js/runtime-main.c704e925.js",
+    "runtime-main.js.map": "/payment-advice/static/js/runtime-main.c704e925.js.map",
+    "static/js/2.bf018fa9.chunk.js": "/payment-advice/static/js/2.bf018fa9.chunk.js",
+    "static/js/2.bf018fa9.chunk.js.map": "/payment-advice/static/js/2.bf018fa9.chunk.js.map",
+    "static/js/3.3b3a50a7.chunk.js": "/payment-advice/static/js/3.3b3a50a7.chunk.js",
+    "static/js/3.3b3a50a7.chunk.js.map": "/payment-advice/static/js/3.3b3a50a7.chunk.js.map",
+    "index.html": "/payment-advice/index.html",
+    "static/css/main.14597370.chunk.css.map": "/payment-advice/static/css/main.14597370.chunk.css.map",
+    "static/js/2.bf018fa9.chunk.js.LICENSE.txt": "/payment-advice/static/js/2.bf018fa9.chunk.js.LICENSE.txt",
+    "static/media/logo.cdd09392.PNG": "/payment-advice/static/media/logo.cdd09392.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c704e925.js",
+    "static/js/2.bf018fa9.chunk.js",
+    "static/css/main.14597370.chunk.css",
+    "static/js/main.63768b45.chunk.js"
+  ]
+}
