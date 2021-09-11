@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/payment-advice/static/css/main.6f938a0b.chunk.css",
-    "main.js": "/payment-advice/static/js/main.a207f6c1.chunk.js",
-    "main.js.map": "/payment-advice/static/js/main.a207f6c1.chunk.js.map",
-    "runtime-main.js": "/payment-advice/static/js/runtime-main.184b3fd5.js",
-    "runtime-main.js.map": "/payment-advice/static/js/runtime-main.184b3fd5.js.map",
-    "static/js/2.bf018fa9.chunk.js": "/payment-advice/static/js/2.bf018fa9.chunk.js",
-    "static/js/2.bf018fa9.chunk.js.map": "/payment-advice/static/js/2.bf018fa9.chunk.js.map",
-    "static/js/3.d989194b.chunk.js": "/payment-advice/static/js/3.d989194b.chunk.js",
-    "static/js/3.d989194b.chunk.js.map": "/payment-advice/static/js/3.d989194b.chunk.js.map",
-    "index.html": "/payment-advice/index.html",
-    "static/css/main.6f938a0b.chunk.css.map": "/payment-advice/static/css/main.6f938a0b.chunk.css.map",
-    "static/js/2.bf018fa9.chunk.js.LICENSE.txt": "/payment-advice/static/js/2.bf018fa9.chunk.js.LICENSE.txt",
-    "static/media/github-icon.04ed74f3.svg": "/payment-advice/static/media/github-icon.04ed74f3.svg",
-    "static/media/logo.cdd09392.PNG": "/payment-advice/static/media/logo.cdd09392.PNG"
+    "main.css": "/payment-advice-generator/static/css/main.6f938a0b.chunk.css",
+    "main.js": "/payment-advice-generator/static/js/main.f29eb872.chunk.js",
+    "main.js.map": "/payment-advice-generator/static/js/main.f29eb872.chunk.js.map",
+    "runtime-main.js": "/payment-advice-generator/static/js/runtime-main.d47e96b6.js",
+    "runtime-main.js.map": "/payment-advice-generator/static/js/runtime-main.d47e96b6.js.map",
+    "static/js/2.bf018fa9.chunk.js": "/payment-advice-generator/static/js/2.bf018fa9.chunk.js",
+    "static/js/2.bf018fa9.chunk.js.map": "/payment-advice-generator/static/js/2.bf018fa9.chunk.js.map",
+    "static/js/3.d989194b.chunk.js": "/payment-advice-generator/static/js/3.d989194b.chunk.js",
+    "static/js/3.d989194b.chunk.js.map": "/payment-advice-generator/static/js/3.d989194b.chunk.js.map",
+    "index.html": "/payment-advice-generator/index.html",
+    "static/css/main.6f938a0b.chunk.css.map": "/payment-advice-generator/static/css/main.6f938a0b.chunk.css.map",
+    "static/js/2.bf018fa9.chunk.js.LICENSE.txt": "/payment-advice-generator/static/js/2.bf018fa9.chunk.js.LICENSE.txt",
+    "static/media/github-icon.04ed74f3.svg": "/payment-advice-generator/static/media/github-icon.04ed74f3.svg",
+    "static/media/logo.cdd09392.PNG": "/payment-advice-generator/static/media/logo.cdd09392.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.184b3fd5.js",
+    "static/js/runtime-main.d47e96b6.js",
     "static/js/2.bf018fa9.chunk.js",
     "static/css/main.6f938a0b.chunk.css",
-    "static/js/main.a207f6c1.chunk.js"
+    "static/js/main.f29eb872.chunk.js"
   ]
 }
