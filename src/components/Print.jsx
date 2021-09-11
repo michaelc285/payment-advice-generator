@@ -26,7 +26,7 @@ export default function Form() {
                 </div>
             </section>
             <footer className="bg-purple-600 py-7 flex justify-center">
-                <a href="https://github.com/michaelc285/payment-advice" target="_blank" rel="noreferrer">
+                <a href="https://github.com/michaelc285/payment-advice-generator" target="_blank" rel="noreferrer">
                     <img className="github-icon" src={github_icon} width={25} title={"GitHub Repository"} alt={"github icon"}/>
                 </a>
             </footer>
