@@ -89,8 +89,8 @@ export default function Form() {
 
 
                 <div className="flex flex-row justify-center mt-5">
-                    <button type="submit" className="py-2 px-4 shadow-xl rounded-lg bg-red-400 hover:bg-red-500 text-xl font-xl text-white">Generate</button>
-                    <button type="button" className="ml-4 py-2 px-4 shadow-xl rounded-lg bg-gray-400 hover:bg-gray-500 text-xl font-xl  text-white" onClick={clearHandler}>Clear</button>
+                    <button type="submit" className="py-2 px-4 shadow-xl rounded-lg bg-red-500 hover:bg-red-600 text-xl font-xl text-white">Generate</button>
+                    <button type="button" className="ml-4 py-2 px-4 shadow-xl rounded-lg bg-gray-500 hover:bg-gray-600 text-xl font-xl text-white" onClick={clearHandler}>Clear</button>
                 </div>
             </form>
 

@@ -20,7 +20,7 @@ export default function Print() {
                     <div className="font-bold text-4xl text-white">Payment Advice Generator</div>
                     {
                         formDatas.periods.length > 0 &&
-                        <button type="button" className="bg-red-400 hover:bg-red-500 shadow-xl px-5 py-2 rounded-lg text-xl font-xl text-white animate-bounce" onClick={handlePrint}>Print</button>
+                        <button type="button" className="bg-red-500 hover:bg-red-600 shadow-xl px-5 py-2 rounded-lg text-xl font-xl text-white animate-bounce" onClick={handlePrint}>Print</button>
 
                     }
                 </div>
