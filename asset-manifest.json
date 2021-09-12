@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/payment-advice-generator/static/css/main.1001dbeb.chunk.css",
-    "main.js": "/payment-advice-generator/static/js/main.f88f1cbc.chunk.js",
-    "main.js.map": "/payment-advice-generator/static/js/main.f88f1cbc.chunk.js.map",
+    "main.css": "/payment-advice-generator/static/css/main.6a87896c.chunk.css",
+    "main.js": "/payment-advice-generator/static/js/main.1073545c.chunk.js",
+    "main.js.map": "/payment-advice-generator/static/js/main.1073545c.chunk.js.map",
     "runtime-main.js": "/payment-advice-generator/static/js/runtime-main.93ad8329.js",
     "runtime-main.js.map": "/payment-advice-generator/static/js/runtime-main.93ad8329.js.map",
     "static/js/2.0ca58437.chunk.js": "/payment-advice-generator/static/js/2.0ca58437.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.484610fb.chunk.js": "/payment-advice-generator/static/js/3.484610fb.chunk.js",
     "static/js/3.484610fb.chunk.js.map": "/payment-advice-generator/static/js/3.484610fb.chunk.js.map",
     "index.html": "/payment-advice-generator/index.html",
-    "static/css/main.1001dbeb.chunk.css.map": "/payment-advice-generator/static/css/main.1001dbeb.chunk.css.map",
+    "static/css/main.6a87896c.chunk.css.map": "/payment-advice-generator/static/css/main.6a87896c.chunk.css.map",
     "static/js/2.0ca58437.chunk.js.LICENSE.txt": "/payment-advice-generator/static/js/2.0ca58437.chunk.js.LICENSE.txt",
     "static/media/github-icon.04ed74f3.svg": "/payment-advice-generator/static/media/github-icon.04ed74f3.svg",
     "static/media/logo.cdd09392.PNG": "/payment-advice-generator/static/media/logo.cdd09392.PNG"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.93ad8329.js",
     "static/js/2.0ca58437.chunk.js",
-    "static/css/main.1001dbeb.chunk.css",
-    "static/js/main.f88f1cbc.chunk.js"
+    "static/css/main.6a87896c.chunk.css",
+    "static/js/main.1073545c.chunk.js"
   ]
 }
