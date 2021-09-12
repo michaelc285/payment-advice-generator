@@ -1,4 +1,4 @@
-.github-icon{
+.github-icon {
   animation-name: rotate;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -6,9 +6,13 @@
   border-radius: 50%;
 }
 
-@keyframes rotate{
-  from{ transform: rotate(-360deg); }
-  to{ transform: rotate(360deg); }
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media all {
@@ -31,9 +35,12 @@
     display: block;
     page-break-before: auto;
   }
+  .noprint {
+    display: none;
+  }
 }
 
 @page {
   size: auto;
-  margin: 20mm;
+  margin: 10mm;
 }

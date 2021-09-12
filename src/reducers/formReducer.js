@@ -16,6 +16,8 @@ export const formReducer = (state, action) => {
     switch (action.type) {
         case 'UPDATE_FORM':
             return { ...action.payload };
+        case 'CLEAR_FORM':
+            return { ...initialFormState };
         default:
             throw new Error();
     }

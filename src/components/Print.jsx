@@ -18,7 +18,11 @@ export default function Print() {
             <header className="bg-purple-600 py-4">
                 <div className="lg:container lg:mx-auto px-4 lg:px-0 flex justify-between flex-wrap" style={{ gap: 10 }}>
                     <div className="font-bold text-4xl text-white">Payment Advice Generator</div>
-                    <button type="button" className="bg-red-500 hover:bg-red-700 shadow-xl px-5 py-2 rounded-lg text-xl font-xl text-white" onClick={handlePrint}>PRINT</button>
+                    {
+                        formDatas.periods.length > 0 &&
+                        <button type="button" className="bg-red-400 hover:bg-red-500 shadow-xl px-5 py-2 rounded-lg text-xl font-xl text-white animate-bounce" onClick={handlePrint}>Print</button>
+
+                    }
                 </div>
             </header>
             <section className="py-4 bg-purple-200">
@@ -26,18 +30,23 @@ export default function Print() {
                     <div className="mb-3">
                         <Form />
                     </div>
-                    <div className="border-4 rounded-lg shadow-2xl bg-white py-2">
-                        <div ref={paymentAdviceRef}>
-                            {formDatas.periods.map((item) => {
-                                return (
-                                    <div key={item}>
-                                        <div className="page-break" />
-                                        <PaymentAdvice period={item} formData={formDatas.form} />
-                                    </div>
-                                )
-                            })}
+                    {
+                        formDatas.periods.length > 0 &&
+                        <div className="border-4 rounded-lg shadow-2xl bg-white py-2">
+                            <div ref={paymentAdviceRef}>
+                                {formDatas.periods.map((item, index) => {
+                                    return (
+                                        <div key={item}>
+                                            <div className="page-break" />
+                                            <PaymentAdvice period={item} formData={formDatas.form} />
+
+                                            {formDatas.periods.length - 1 !== index  && <hr className="noprint my-3"/>}
+                                        </div>
+                                    )
+                                })}
+                            </div>
                         </div>
-                    </div>
+                    }
                 </div>
             </section>
             <footer className="bg-purple-600 py-7 flex justify-center">

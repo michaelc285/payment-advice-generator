@@ -20,7 +20,7 @@ export const getPeriods = (start, monthNum) => {
     for (let i = 0; i < monthNum; i++) {
         let startMonth = new Date(start);
         let date = new Date(startMonth.setMonth(start.getMonth() + i));
-        result.push(moment(date).format("YYYY-MM"));
+        result.push(moment(date).format("YYYY/MM"));
     }
     return result;
 }
