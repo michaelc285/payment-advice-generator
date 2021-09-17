@@ -43,48 +43,48 @@ export default function Form() {
 
     return (
         <div className="border-2 rounded-lg shadow-2xl border-gray-200 p-3 bg-white">
-            <div className="font-bold text-xl text-purple-900 mb-3">Generation Form</div>
+            <div className="font-bold text-xl text-blue-900 mb-3">Generation Form</div>
             <form className="p-3" onSubmit={submitHandler}>
                 <div className="grid grid-cols-9 mb-2">
                     <label className="col-span-full md:col-span-4 lg:col-span-1" htmlFor="start">Start Month</label>
-                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-purple-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent px-3 py-2 mb-2 lg:mb-0" type="month" id="start" name="start" max={endDate} value={startDate} onChange={(event) => setStartDate(event.target.value)} />
+                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-blue-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-3 py-2 mb-2 lg:mb-0" type="month" id="start" name="start" max={endDate} value={startDate} onChange={(event) => setStartDate(event.target.value)} />
                     <label className="col-span-full lg:col-start-6 md:col-span-4 lg:col-span-1" htmlFor="end">End Month</label>
-                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent  border-purple-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent px-3 py-2" type="month" id="end" name="end" min={startDate} value={endDate} onChange={(event) => setEndDate(event.target.value)} />
+                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent  border-blue-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-3 py-2" type="month" id="end" name="end" min={startDate} value={endDate} onChange={(event) => setEndDate(event.target.value)} />
                 </div>
 
                 <hr className="mb-2" />
 
                 <div className="grid grid-cols-9 mb-2">
                     <label className="col-span-full md:col-span-4 lg:col-span-1" htmlFor="form-staff-name">Employee Name</label>
-                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-purple-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent px-3 py-2 mb-2 lg:mb-0" type="text" name="staffName" id="form-staff-name" onChange={textHandler} />
+                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-blue-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-3 py-2 mb-2 lg:mb-0" type="text" name="staffName" id="form-staff-name" onChange={textHandler} />
                     <label className="col-span-full lg:col-start-6 md:col-span-4 lg:col-span-1" htmlFor="form-staff-position">Position</label>
-                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent  border-purple-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent px-3 py-2" type="text" name="position" id="form-staff-position" onChange={textHandler} />
+                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent  border-blue-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-3 py-2" type="text" name="position" id="form-staff-position" onChange={textHandler} />
                 </div>
                 <div className="grid grid-cols-9 mb-2">
                     <label className="col-span-full md:col-span-4 lg:col-span-1" htmlFor="form-payment-method">Payment Method</label>
-                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-purple-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent px-3 py-2" type="text" name="paymentMethod" id="form-payment-method" onChange={textHandler} />
+                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-blue-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-3 py-2" type="text" name="paymentMethod" id="form-payment-method" onChange={textHandler} />
                 </div>
 
                 <hr className="mb-2" />
 
                 <div className="grid grid-cols-9 mb-2">
                     <label className="col-span-full md:col-span-4 lg:col-span-1" htmlFor="form-salary">Salary</label>
-                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-purple-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent px-3 py-2 mb-2 lg:mb-0" type="number" name="salary" id="form-salary" onChange={numberHandler} />
+                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-blue-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-3 py-2 mb-2 lg:mb-0" type="number" name="salary" id="form-salary" onChange={numberHandler} />
                     <label className="col-span-full lg:col-start-6 md:col-span-4 lg:col-span-1" htmlFor="form-bouns">Bouns</label>
-                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent  border-purple-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent px-3 py-2 mb-2 lg:mb-0" type="number" name="bouns" id="form-bouns" onChange={numberHandler} />
+                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent  border-blue-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-3 py-2 mb-2 lg:mb-0" type="number" name="bouns" id="form-bouns" onChange={numberHandler} />
                 </div>
                 <div className="grid grid-cols-9 mb-2">
                     <label className="col-span-full md:col-span-4 lg:col-span-1" htmlFor="form-commision">Comision</label>
-                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-purple-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent px-3 py-2" type="number" name="commision" id="form-commision" onChange={numberHandler} />
+                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-blue-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-3 py-2" type="number" name="commision" id="form-commision" onChange={numberHandler} />
                 </div>
 
                 <hr className="mb-2" />
 
                 <div className="grid grid-cols-9 mb-2">
                     <label className="col-span-full md:col-span-4 lg:col-span-1" htmlFor="form-employer">Employer Name</label>
-                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-purple-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent px-3 py-2 mb-2 lg:mb-0" type="text" name="employer" id="form-employer" onChange={textHandler} />
+                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent border-blue-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-3 py-2 mb-2 lg:mb-0" type="text" name="employer" id="form-employer" onChange={textHandler} />
                     <label className="col-span-full lg:col-start-6 md:col-span-4 lg:col-span-1" htmlFor="form-phonen-number">Employer Phone No.</label>
-                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent  border-purple-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent px-3 py-2" type="text" name="phonenNumber" id="form-phonen-number" onChange={textHandler} />
+                    <input className="col-span-full md:col-span-5 lg:col-span-3 border border-transparent  border-blue-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-3 py-2" type="text" name="phonenNumber" id="form-phonen-number" onChange={textHandler} />
                 </div>
 
 

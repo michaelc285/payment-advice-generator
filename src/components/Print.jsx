@@ -14,8 +14,9 @@ export default function Print() {
     });
 
     return (
-        <>
-            <header className="bg-purple-600 py-4">
+        <div className="min-h-screen flex flex-col">
+
+            <header className="bg-blue-600 py-4">
                 <div className="lg:container lg:mx-auto px-4 lg:px-0 flex justify-between flex-wrap" style={{ gap: 10 }}>
                     <div className="font-bold text-4xl text-white">Payment Advice Generator</div>
                     {
@@ -25,7 +26,7 @@ export default function Print() {
                     }
                 </div>
             </header>
-            <section className="py-4 bg-purple-200">
+            <section className="py-4 bg-blue-200 flex-grow">
                 <div className="lg:container lg:mx-auto sm:px-1 md:px-4 lg:px-20 xl:px-40">
                     <div className="mb-3">
                         <Form />
@@ -40,7 +41,7 @@ export default function Print() {
                                             <div className="page-break" />
                                             <PaymentAdvice period={item} formData={formDatas.form} />
 
-                                            {formDatas.periods.length - 1 !== index  && <hr className="noprint my-3"/>}
+                                            {formDatas.periods.length - 1 !== index && <hr className="noprint my-3" />}
                                         </div>
                                     )
                                 })}
@@ -49,11 +50,12 @@ export default function Print() {
                     }
                 </div>
             </section>
-            <footer className="bg-purple-600 py-7 flex justify-center">
+
+            <footer className="bg-blue-600 py-7 flex justify-center">
                 <a href="https://github.com/michaelc285/payment-advice-generator" target="_blank" rel="noreferrer">
                     <img className="github-icon" src={github_icon} width={25} title={"GitHub Repository"} alt={"github icon"} />
                 </a>
             </footer>
-        </>
+        </div>
     )
 }
