@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/payment-advice-generator/static/css/main.6a87896c.chunk.css",
-    "main.js": "/payment-advice-generator/static/js/main.1073545c.chunk.js",
-    "main.js.map": "/payment-advice-generator/static/js/main.1073545c.chunk.js.map",
+    "main.css": "/payment-advice-generator/static/css/main.19baa150.chunk.css",
+    "main.js": "/payment-advice-generator/static/js/main.cdff9da4.chunk.js",
+    "main.js.map": "/payment-advice-generator/static/js/main.cdff9da4.chunk.js.map",
     "runtime-main.js": "/payment-advice-generator/static/js/runtime-main.93ad8329.js",
     "runtime-main.js.map": "/payment-advice-generator/static/js/runtime-main.93ad8329.js.map",
-    "static/js/2.0ca58437.chunk.js": "/payment-advice-generator/static/js/2.0ca58437.chunk.js",
-    "static/js/2.0ca58437.chunk.js.map": "/payment-advice-generator/static/js/2.0ca58437.chunk.js.map",
+    "static/js/2.6bc2f513.chunk.js": "/payment-advice-generator/static/js/2.6bc2f513.chunk.js",
+    "static/js/2.6bc2f513.chunk.js.map": "/payment-advice-generator/static/js/2.6bc2f513.chunk.js.map",
     "static/js/3.484610fb.chunk.js": "/payment-advice-generator/static/js/3.484610fb.chunk.js",
     "static/js/3.484610fb.chunk.js.map": "/payment-advice-generator/static/js/3.484610fb.chunk.js.map",
     "index.html": "/payment-advice-generator/index.html",
-    "static/css/main.6a87896c.chunk.css.map": "/payment-advice-generator/static/css/main.6a87896c.chunk.css.map",
-    "static/js/2.0ca58437.chunk.js.LICENSE.txt": "/payment-advice-generator/static/js/2.0ca58437.chunk.js.LICENSE.txt",
+    "static/css/main.19baa150.chunk.css.map": "/payment-advice-generator/static/css/main.19baa150.chunk.css.map",
+    "static/js/2.6bc2f513.chunk.js.LICENSE.txt": "/payment-advice-generator/static/js/2.6bc2f513.chunk.js.LICENSE.txt",
     "static/media/github-icon.04ed74f3.svg": "/payment-advice-generator/static/media/github-icon.04ed74f3.svg",
     "static/media/logo.cdd09392.PNG": "/payment-advice-generator/static/media/logo.cdd09392.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.93ad8329.js",
-    "static/js/2.0ca58437.chunk.js",
-    "static/css/main.6a87896c.chunk.css",
-    "static/js/main.1073545c.chunk.js"
+    "static/js/2.6bc2f513.chunk.js",
+    "static/css/main.19baa150.chunk.css",
+    "static/js/main.cdff9da4.chunk.js"
   ]
 }
