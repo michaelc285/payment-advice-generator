@@ -3,10 +3,10 @@ import logo from "../assets/logo.PNG";
 
 const PaymentAdvice = ({ period, formData }) => {
     const [salary, setSalary] = useState(formData.salary);
-    const [commision, setComision] = useState(formData.commision);
+    const [commission, setCommission] = useState(formData.commision);
     const [bouns, setBouns] = useState(formData.bouns);
 
-    const totalAmount = salary + commision + bouns;
+    const totalAmount = salary + commission + bouns;
 
     return (
         <div className="text-lg" >
@@ -49,7 +49,7 @@ const PaymentAdvice = ({ period, formData }) => {
                     </div>
                     <div className="mb-4 grid grid-cols-12">
                         <label className="font-medium col-span-3" htmlFor="commission">b. 佣金</label>
-                        <input type="number" className="col-start-11 col-span-2 text-right border-b border-gray-200 text-xl focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" id="commission" value={commision || ""} onChange={(event) => setComision(parseInt(event.target.value))} />
+                        <input type="number" className="col-start-11 col-span-2 text-right border-b border-gray-200 text-xl focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" id="commission" value={commission || ""} onChange={(event) => setCommission(parseInt(event.target.value))} />
                     </div>
                     <div className="mb-4 grid grid-cols-12">
                         <label className="font-medium col-span-3" htmlFor="bouns">c. 雙糧/花紅</label>
