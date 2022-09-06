@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://michaelc285.github.io/payment-advice-generator",
+  "engines": {
+    "node": ">=16.15.0",
+    "npm": ">=8.11.0",
+    "pnpm": ">=7.9.0"
+  },
+  "engineStrict": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -21,8 +27,8 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "pnpm build",
+    "deploy": "pnpm run predeploy && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,8 +49,11 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.17.1",
+    "@types/node": "*",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14",
+    "typescript": ">=3.2.1 <4.0.0 || >=4.0.0 <5.0.0"
   }
 }
